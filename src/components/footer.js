@@ -22,8 +22,8 @@ function Footer() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          &copy; {new Date().getFullYear()} {data.site.siteMetadata.author}.{" "}
-          <a href="https://twitter.com/{data.site.siteMetadata.twitter}">
+          &copy; {new Date().getFullYear()} {data.site.siteMetadata.author}.
+          <a href={`http://www.twitter.com/${data.site.siteMetadata.twitter}`}>
             @{data.site.siteMetadata.twitter}
           </a>
           <br /> Get in touch if you want to know more or to hire me!!
